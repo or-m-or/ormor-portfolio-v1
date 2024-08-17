@@ -1,12 +1,14 @@
 ---
-title: Svelte is Fun
+title: DoWA:DO 프로젝트
 description: First post.
-date: '2024-7-25'
+date: '2024-8-01'
 categories:
-  - sveltekit
-  - svelte
+  - RAG
+  - FastAPI
 published: true
 ---
+
+<br>
 
 ## Svelte is Fun
 
