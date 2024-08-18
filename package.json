@@ -2,6 +2,7 @@
 	"name": "portfolio-template",
 	"version": "0.0.1",
 	"private": true,
+	"homepage": "https://or-m-or.github.io/ormor-portfolio-v1/",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -9,7 +10,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"deploy": "gh-pages -d build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -37,9 +39,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.4",
 		"bits-ui": "^0.21.12",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
+		"gh-pages": "^6.1.1",
 		"lucide-svelte": "^0.414.0",
 		"marked": "^13.0.2",
 		"mode-watcher": "^0.4.0",

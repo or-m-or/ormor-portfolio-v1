@@ -20,9 +20,6 @@
 		if (description) {
 			e.preventDefault();
 			isExpanded = !isExpanded;
-		} else if (href) {
-			// href가 있을 때 링크로 이동
-			window.location.href = href;
 		}
 	};
 </script>
