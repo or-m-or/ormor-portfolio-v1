@@ -43,7 +43,9 @@
 						class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
 						yOffset={8}>Hi, I'm Taehwan 👋</BlurFade
 					>
-					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}>소개글 임시.</BlurFade>
+					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}
+						>새로운 도전에 항상 설렘을 느끼며, 지속적인 성장을 추구하는 AI 엔지니어, 허태환입니다.</BlurFade
+					>
 				</div>
 				<BlurFade delay={BLUR_FADE_DELAY}>
 					<Avatar.Root class="size-28 border">
@@ -126,8 +128,8 @@
 						<p
 							class="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 						>
-							I&apos;ve worked on a variety of projects, from simple websites to complex web
-							applications. Here are a few of my favorites.
+							저의 주요 프로젝트를 소개합니다. 프로젝트 카드 클릭하여 프로젝트에 대한 자세한 내용을
+							확인하실 수 있습니다.
 						</p>
 					</div>
 				</div>
@@ -150,7 +152,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="hackathons">
+	<!-- <section id="hackathons">
 		<div class="w-full space-y-12 py-12">
 			<BlurFade delay={BLUR_FADE_DELAY}>
 				<div class="flex flex-col items-center justify-center space-y-4 text-center">
@@ -181,7 +183,7 @@
 				</ul>
 			</BlurFade>
 		</div>
-	</section>
+	</section> -->
 	<section id="contact">
 		<div class="grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6">
 			<BlurFade delay={BLUR_FADE_DELAY * 2}>
@@ -193,11 +195,11 @@
 					<p
 						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 					>
-						Want to chat? Just shoot me a dm
-						<a href={DATA.contact.social.X.url} class="text-blue-500 hover:underline">
-							with a direct question on twitter
+						다음 메일 주소로 언제든 연락해주세요. 👉🏻
+						<a href="mailto:htth815@gmail.com" class="text-blue-500 hover:underline">
+							htth815@gmail.com
 						</a>
-						and I&apos;ll respond whenever I can. I will ignore all soliciting.
+						👈🏻
 					</p>
 				</div>
 			</BlurFade>

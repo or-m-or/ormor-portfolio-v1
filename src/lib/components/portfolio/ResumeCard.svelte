@@ -8,9 +8,9 @@
 	export let logoUrl: string = '';
 	export let company: string = '';
 	export let title: string = '';
-	export let subtitle: string = '';
+	// export let subtitle: string = '';
 	export let href: string = '';
-	export let badges: string[]=[''];
+	export let badges: string[] = [''];
 	export let description: string = '';
 	export let start: string = '';
 	export let end: string = '';
@@ -20,6 +20,9 @@
 		if (description) {
 			e.preventDefault();
 			isExpanded = !isExpanded;
+		} else if (href) {
+			// href가 있을 때 링크로 이동
+			window.location.href = href;
 		}
 	};
 </script>
