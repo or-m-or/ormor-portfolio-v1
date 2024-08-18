@@ -16,7 +16,7 @@ published: true
 
 <br>
 
-## Svelte is Fun
+## 프로젝트 요약
 
 Hey friends! 👋
 
@@ -30,3 +30,5 @@ Hey friends! 👋
 	let num = 0;
 </script>
 ```
+
+
