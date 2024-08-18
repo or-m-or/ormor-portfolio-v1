@@ -24,17 +24,7 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
-		adapter: adapter({
-			pages: 'build',   // 빌드 결과물이 저장될 디렉토리
-			assets: 'build',  // 정적 파일이 저장될 디렉토리
-			fallback: null    // SPA 라우팅을 위한 fallback 설정 (필요시 설정)
-		}),
-		paths: {
-			base: '/ormor-portfolio-v1' // 배포되는 리포지토리의 이름 (예: '/your-repo-name')
-		},
-		prerender: {
-			entries: ['*'] // 모든 페이지를 프리렌더링
-		}
+		adapter: adapter(),
 	}
 };
 
